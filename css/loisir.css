@@ -1,0 +1,20 @@
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+p {
+font-family: monospace; 
+width: 12ch;
+border-right: .08em solid;
+overflow: hidden;
+font-size: 4em;
+white-space: nowrap;
+animation: typing 5s steps(12, end), caret .5s step-end infinite;
+}
+
+h5 {
+	margin-left:50px;
+	margin-top:5px;
+font-family: monospace; 
+font-size: 3em;
+}
+  
